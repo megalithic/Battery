@@ -30,7 +30,7 @@ Just do (case sensitive)
 ### One Liner
 (Cut & Paste on terminal to install on `/usr/bin`, btw, try to run from `~/` or other writable dir)
 
-	brew install spark; curl -O https://raw.github.com/Goles/Battery/master/battery ; \
+	brew install spark; curl -O https://raw.githubusercontent.com/megalithic/Battery/master/battery; \
 	sudo mv battery /usr/bin; sudo chmod 755 /usr/bin/battery
 
 ### Step by Step

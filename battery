@@ -125,7 +125,7 @@ elif ((ascii)); then
   GRAPH=$(printf "[%-${barlength}s]" "${ascii_bar:0:rounded_n}")
 
 else
-  GRAPH=$(spark 0 ${BATTERY_STATUS} 100 | awk '{print substr($0,4,3)}')
+  GRAPH=$(spark 0 ${BATTERY_STATUS} 100 | awk '{print substr($0,2,1)}')
 fi
 
 if ((output_tmux)); then
